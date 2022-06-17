@@ -1,22 +1,28 @@
 body {
-    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
 }
 
 h1, h2, h3 {
-    
     text-align: center;
     font-weight: 800;
 }
 
 
 main {
-    text-align: justify;
+    width: 500px; /* o tamanho do quadrado branco */
+    border-radius: 10px; /* deixar a bordinha do quadradinho branco arredondado */
+    padding: 15px; /* espaçamento dentro do padding */
+    margin: auto; /* vai deixar centralizado o quadrado banco */
+    background: whitesmoke;
+    box-shadow: 3px 3px 10px black; /* vai criar uma sombra na caixa de texto */
+    color: black;
 }
 
 footer {
+    padding: 50px;
     font-size: larger;
     font-style: bold;
 }

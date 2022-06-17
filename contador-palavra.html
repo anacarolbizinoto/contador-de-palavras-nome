@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>O seu nome é :D</title>
+</head>
+<body>
+    <header>
+    <h1>Conte as Palavras do seu Nome</h1>
+    <h2>Deixe-o em Letras Maiúsculas</h2>
+    <h3>Deixe-o em Letras Minúsculas</h3>
+    </header>
+
+    <main>
+        <script>
+            var nome = window.prompt("Qual é o seu nome?")
+                document.writeln(`Seu nome tem ${nome.length} letras. <br/>`)
+                document.writeln(`Seu nome em maiúsculas fica ${nome.toUpperCase()} <br/>`)
+                document.writeln(`Seu nome em minúsculas fica ${nome.toLowerCase()}<br/>`)
+        </script>
+
+    </main>
+        
+    <footer>
+        <marquee> Obrigada pela visita :)</marque>
+    </footer>
+
+</body>
+
+</html>

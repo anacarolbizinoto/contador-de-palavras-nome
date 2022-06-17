@@ -9,23 +9,24 @@
 </head>
 <body>
     <header>
-    <h1>Conte as Palavras do seu Nome</h1>
-    <h2>Deixe-o em Letras Maiúsculas</h2>
-    <h3>Deixe-o em Letras Minúsculas</h3>
+    <h1>Conte As Palavras Do Seu Nome</h1>
+    <h2>DEIXE-O EM LETRAS MAIUSCULAS</h2>
+    <h3>deixe-o em letras minúsculas</h3>
     </header>
 
     <main>
         <script>
             var nome = window.prompt("Qual é o seu nome?")
+                document.writeln(`Seu nome é ${nome}. <br/>`)
                 document.writeln(`Seu nome tem ${nome.length} letras. <br/>`)
-                document.writeln(`Seu nome em maiúsculas fica ${nome.toUpperCase()} <br/>`)
-                document.writeln(`Seu nome em minúsculas fica ${nome.toLowerCase()}<br/>`)
+                document.writeln(`Seu nome em maiúsculas fica ${nome.toUpperCase()}. <br/>`)
+                document.writeln(`Seu nome em minúsculas fica ${nome.toLowerCase()}. <br/>`)
         </script>
 
     </main>
         
     <footer>
-        <marquee> Obrigada pela visita :)</marque>
+        <marquee> Obrigada pela visita :) </marque>
     </footer>
 
 </body>
